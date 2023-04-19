@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PO CHE - Comunicacion integral</title>
+
+    <!-- CDN Bootstrap (CSS y JS) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="../css/estilos.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    
+    <!-- Animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+
+    <!-- header -->
+    <header class="container-fluid">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg bg-transparent row">
+            <div class="container-fluid col-12">
+            <a class="navbar-brand" href="#"><img id="img__navbar" src="../img/logo.png" alt="logo" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="servicios.html">SERVICIOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="influencer-marketing.html">INFLUENCER MARKETING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="referencias-credenciales.html">REFERENCIAS CREDENCIALES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>   
+
+    <!-- main content -->
+    <main class="animate__animated animate__fadeIn">
+        <section class="container-fluid">
+            <img class="section__contactimg" src="../img/whatsapp-logo-24.png" alt="wassap">
+            <p class="section__contact">+549 11 5333 2056
+            </p>
+            <img class="section__contactimg" src="../img/envelope-regular-24.png" alt="email">
+            <p class="section__contact">brendapochettinog@gmail.com
+            </p>
+            <img class="section__contactimg" src="../img/pencil.png" alt="pencil">
+            <!-- Formulario -->
+            <form action="">
+                <div class="formulario1">
+                    <label class="formulario__label" for="nombre">Nombre</label>
+                    <input class="formulario__input" type="text" name="nombre" placeholder="Ingrese su nombre">
+                </div>
+                <div class="formulario">
+                    <label class="formulario__label" for="apellido">Apellido</label>
+                    <input class="formulario__input" type="text" name="apellido" placeholder="Ingrese su apellido">
+                </div>
+                <div class="formulario2">
+                    <textarea class="formulario__consulta" name="mensaje" id="" cols="50" rows="10" placeholder="Ingrese aqui su consulta">
+                    </textarea>
+                </div>
+                <div class="boton">
+                    <button class="formulario__boton" type="submit">ENVIAR
+                    </button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <ol>
+            <li><a href="contacto.html">Volver arriba</a>
+            </li>
+        </ol>
+    </footer>
+</body>
+</html>
