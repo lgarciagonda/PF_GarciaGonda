@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* FOOTER */
+footer {
+  background-color: rgb(199, 177, 162);
+}
+footer ol {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  height: 35px;
+  border-top: 1px solid black;
+  border-bottom: 0px;
+}
+footer li a {
+  display: flex;
+  text-decoration: none;
+  justify-content: flex-end;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  padding-right: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
