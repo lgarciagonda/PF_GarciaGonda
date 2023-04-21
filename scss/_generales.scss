@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: GlacialIndifference-Regular;
+    src: url(../fonts/GlacialIndifference-Regular.ttf);
+}
+
+body {
+    background-color: rgb(239, 233, 229);
+    font-family: GlacialIndifference-Regular;
+}
+
+main{
+    section ul{
+        padding: 10px 45px; 
+    }
+}
+
+main{
+    section ul li{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    list-style-type: square;
+    margin-top: 10px;
+}
+}
