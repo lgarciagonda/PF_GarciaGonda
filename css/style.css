@@ -48,27 +48,20 @@ header nav a img:hover {
 footer {
   background-color: rgb(199, 177, 162);
   margin: 0px;
-  height: 50px;
+  height: 100%;
 }
-
-ol {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+footer ol li {
   list-style-type: none;
-  height: 35px;
-  border-top: 1px solid black;
-  border-bottom: 0px;
 }
-
-li a {
+footer p {
+  font-size: 13px;
+}
+footer div {
   display: flex;
-  text-decoration: none;
-  justify-content: flex-end;
-  align-items: center;
-  color: rgb(0, 0, 0);
-  font-size: 15px;
-  padding-right: 5px;
+  justify-content: end;
+}
+footer img {
+  width: 4%;
 }
 
 main section div h2 {
