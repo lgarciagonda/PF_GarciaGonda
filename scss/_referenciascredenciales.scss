@@ -1,16 +1,26 @@
+main{
+    section ul{
+        padding: 10px 45px; 
+    }
+}
+main{
+    section ul li{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    list-style-type: square;
+    margin-top: 10px;
+}
+}
 .credential{
     padding: 0px;
 }
 .credential__detail{
-    font-weight: normal;
-    font-style: italic;
-    font-size: 15px;
-    list-style-type: none;
-    padding: 10px;
-    background-color: white;
+    @extend .service__detail;
+    font-size: 14px;
 }
 .credential__image{
-    margin-top: -25px;
-    width: 13%;
+    margin-top: -35px;
+    width: 12%;
     height: 13%;
 }

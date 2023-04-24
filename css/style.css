@@ -12,18 +12,6 @@ body {
   font-family: GlacialIndifference-Regular;
 }
 
-main section ul {
-  padding: 10px 45px;
-}
-
-main section ul li {
-  color: rgb(0, 0, 0);
-  font-weight: bold;
-  font-size: 18px;
-  list-style-type: square;
-  margin-top: 10px;
-}
-
 .animate__animated.animate__fadeIn {
   --animate-duration: 3s;
 }
@@ -59,8 +47,11 @@ header nav a img:hover {
 
 footer {
   background-color: rgb(199, 177, 162);
+  margin: 0px;
+  height: 50px;
 }
-footer ol {
+
+ol {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -69,7 +60,8 @@ footer ol {
   border-top: 1px solid black;
   border-bottom: 0px;
 }
-footer li a {
+
+li a {
   display: flex;
   text-decoration: none;
   justify-content: flex-end;
@@ -107,7 +99,7 @@ main section div img {
   padding: 5px;
 }
 
-.service__detail {
+.service__detail, .credential__detail {
   font-style: italic;
   font-weight: normal;
   font-size: 16px;
@@ -195,22 +187,29 @@ main section div img {
   width: 570px;
 }
 
+main section ul {
+  padding: 10px 45px;
+}
+
+main section ul li {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  list-style-type: square;
+  margin-top: 10px;
+}
+
 .credential {
   padding: 0px;
 }
 
 .credential__detail {
-  font-weight: normal;
-  font-style: italic;
-  font-size: 15px;
-  list-style-type: none;
-  padding: 10px;
-  background-color: white;
+  font-size: 14px;
 }
 
 .credential__image {
-  margin-top: -25px;
-  width: 13%;
+  margin-top: -35px;
+  width: 12%;
   height: 13%;
 }
 

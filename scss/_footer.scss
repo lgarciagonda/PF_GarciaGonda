@@ -1,5 +1,8 @@
 footer{
     background-color: rgb(199, 177, 162);
+        margin: 0px;
+        height: 50px;
+    }
     ol{
         display: flex;
         justify-content: flex-end;
@@ -9,12 +12,11 @@ footer{
         border-top: 1px solid black;
         border-bottom: 0px;
     }
-    li a {    display: flex;
+    li a {display: flex;
         text-decoration: none;
         justify-content: flex-end;
         align-items: center;
         color: rgb(0, 0, 0);
         font-size: 15px;
         padding-right: 5px;
-    }
     }
