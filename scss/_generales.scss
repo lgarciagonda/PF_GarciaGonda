@@ -28,3 +28,7 @@ main{
     margin-top: 10px;
 }
 }
+
+.animate__animated.animate__fadeIn{
+    --animate-duration: 3s;
+}

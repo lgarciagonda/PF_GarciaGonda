@@ -1,0 +1,53 @@
+#section-influencer{
+    display: grid;
+    grid-template-areas:
+        "Influencer Influencer Influencer"
+        "1 2 3";
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 200px 200px 200px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.influencer{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+.influencer__reversal{
+    width: 350px;
+    transition: 0.3s;
+}
+.influencer__reversal:hover{
+    width: 380px;
+}
+.influencer__cleanex{
+    width: 400px;
+    margin-top: -40px;
+    transition: 0.3s;
+}
+.influencer__cleanex:hover{
+    width: 420px;
+}
+.influencer__inarah{
+    width: 310px;
+    transition: 0.3s;
+}
+.influencer__inarah:hover{
+    width: 360px;
+}
+.influencer__proavenal{
+    width: 340px;
+    margin-left: -20px;
+    transition: 0.3s;
+}
+.influencer__proavenal:hover{
+    width: 380px;
+}
+.influencer__memeliah{
+    width: 550px;
+    transition: 0.3s;
+}
+.influencer__memeliah:hover{
+    width: 570px;
+}
