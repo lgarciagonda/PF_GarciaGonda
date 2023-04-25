@@ -13,7 +13,7 @@ body {
 }
 
 .animate__animated.animate__fadeIn {
-  --animate-duration: 3s;
+  --animate-duration: 5s;
 }
 
 #header {
@@ -48,20 +48,63 @@ header nav a img:hover {
 footer {
   background-color: rgb(199, 177, 162);
   margin: 0px;
-  height: 100%;
-}
-footer ol li {
-  list-style-type: none;
-}
-footer p {
-  font-size: 13px;
 }
 footer div {
   display: flex;
-  justify-content: end;
+  justify-content: center;
 }
-footer img {
-  width: 4%;
+footer div img {
+  width: 1.5%;
+  height: 1.5%;
+  padding-right: 3px;
+}
+footer div ol {
+  padding: 0px;
+}
+footer div li {
+  list-style-type: none;
+}
+footer div a {
+  text-decoration: none;
+  color: black;
+}
+
+.pochefooter {
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.contactofooter {
+  font-size: 12px;
+  padding-right: 15px;
+}
+
+.linkfooter {
+  font-style: none;
+  list-style-type: normal;
+  font-size: 11px;
+}
+
+.logoingreso {
+  height: 250px;
+  width: 250px;
+}
+
+.linkingreso {
+  font-style: italic;
+  font-family: GlacialIndifference-Regular;
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.principal1 {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 main section div h2 {
@@ -84,8 +127,13 @@ main section div img {
   padding: 10px 0px;
 }
 
-.btn btn-primary {
-  color: white;
+.botoninicio {
+  margin-left: 390px;
+  margin-bottom: 18px;
+  padding: 10px;
+  font-size: 12px;
+  background-color: rgb(239, 233, 229);
+  color: rgb(0, 0, 0);
 }
 
 .banner1 {

@@ -1,19 +1,36 @@
 footer{
     background-color: rgb(199, 177, 162);
-        margin: 0px;
-        height: 100%;
-    ol li{
-        list-style-type: none;
-    }
-    p{
-        font-size: 13px;
-
-    }
-    div{
+    margin: 0px;
+    div{ 
         display: flex;
-        justify-content: end;
+        justify-content: center;
+        img{
+            width: 1.5%;
+            height: 1.5%;
+            padding-right: 3px;
+        }
+        ol{
+        padding: 0px;
+        }   
+        li{
+        list-style-type: none;
+        } 
+        a{  
+        text-decoration: none;
+        color: black;
+        }
     }
-    img{
-        width: 4%;
-    }
-    }
+}
+.pochefooter{
+    font-size: 12px;
+    padding-top: 10px;
+}
+.contactofooter{
+    font-size: 12px;
+    padding-right: 15px;
+}
+.linkfooter{
+    font-style: none;
+    list-style-type: normal;
+    font-size: 11px;
+}
