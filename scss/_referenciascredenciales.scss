@@ -1,13 +1,15 @@
 main{
-    section ul{
+    section{ 
+        ul{
         padding: 10px 45px; 
-    }
-    section ul li{
+        }
+        li{
         color: rgb(0, 0, 0);
         font-weight: bold;
         font-size: 18px;
         list-style-type: square;
         margin-top: 10px;
+        }
     }
 }
 .contenedorreferencias{
@@ -19,9 +21,6 @@ main{
 .contenedorreferenciasimg{
     display: flex;
     justify-content: center;
-}
-.credential{
-    padding: 0px;
 }
 .credential__detail{
     @extend .service__detail;

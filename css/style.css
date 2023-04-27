@@ -16,13 +16,6 @@ body {
   --animate-duration: 5s;
 }
 
-#header {
-  background-color: rgb(239, 233, 229);
-  display: flex;
-  align-items: center;
-  padding: 8px 10px;
-}
-
 header nav ul li {
   font-size: 12px;
   padding: 10px;
@@ -112,17 +105,14 @@ main section div h2 {
   font-size: 18px;
   padding-top: 10px;
 }
-
 main section div h3 {
   font-size: 27px;
   text-align: center;
 }
-
 main section div p {
   padding-top: 17px;
   font-size: 15px;
 }
-
 main section div img {
   padding: 10px 0px;
 }
@@ -158,15 +148,6 @@ main section div img {
   background-color: white;
 }
 
-.contenidoservicios {
-  display: grid;
-  grid-template-columns: 4;
-  grid-template-rows: 2;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 20% 80%;
-  padding-bottom: 30px;
-}
-
 .contenidoservicio__titulo {
   margin-left: 27px;
   font-size: 23px;
@@ -186,63 +167,42 @@ main section div img {
   margin: 0px;
 }
 
-/* .contenedorinfluencer{
-    display: grid;
-    grid-template-areas:
-        "Influencer Influencer Influencer"
-        "1 2 3";
-    grid-template-columns: 500px 500px 500px;
-    grid-template-rows: 200px 200px 200px;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
+.contenedorinfluencer {
+  display: grid;
+  grid-template-areas: "Influencer Influencer Influencer" "1 2 3";
+  grid-template-columns: 34% 33% 34%;
+  grid-template-rows: 150px 270px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
 }
-.influencer{
-    width: 400px;
-    display: flex;
-    justify-content: center;
+
+.influencer__reversal {
+  width: 400px;
+  transition: 0.3s;
 }
-.influencer__reversal{
-    width: 400px;
-    transition: 0.3s;
-} */
-/* .influencer__reversal:hover{
-    width: 380px;
-} */
-/* .influencer__cleanex{
-    width: 400px;
-    margin-top: -40px;
-    transition: 0.3s;
-} */
-/* .influencer__cleanex:hover{
-    width: 420px;
-} */
-/* .influencer__inarah{
-    width: 300px;
-    transition: 0.3s;
-} */
-/* .influencer__inarah:hover{
-    width: 360px;
-} */
-/* .influencer__proavenal{
-    width: 340px;
-    margin-left: -20px;
-    transition: 0.3s;
-} */
-/* .influencer__proavenal:hover{
-    width: 380px;
-} */
-/* .influencer__memeliah{
-    width: 550px;
-    transition: 0.3s;
-} */
-/* .influencer__memeliah:hover{
-    width: 570px;
-} */
+
+.influencer__cleanex {
+  width: 350px;
+  transition: 0.3s;
+}
+
+.influencer__proavenal {
+  width: 350px;
+  transition: 0.3s;
+}
+
+.influencer__inarah {
+  margin-left: -110px;
+  margin-top: -70px;
+  width: 280px;
+  transition: 0.3s;
+}
+
 main section ul {
   padding: 10px 45px;
 }
-main section ul li {
+main section li {
   color: rgb(0, 0, 0);
   font-weight: bold;
   font-size: 18px;
@@ -253,10 +213,6 @@ main section ul li {
 .contenedorreferenciasimg {
   display: flex;
   justify-content: center;
-}
-
-.credential {
-  padding: 0px;
 }
 
 .credential__detail {
@@ -279,25 +235,13 @@ main section form {
   height: 3%;
 }
 
-.formulario {
-  margin-top: 20px;
-}
-
-.formulario1 {
-  margin-top: -25px;
-}
-
-.formulario2 {
-  margin-top: 25px;
+.contactnumber, .contactemail {
+  margin-left: 50px;
+  margin-top: -51px;
 }
 
 .boton {
   margin-left: -5px;
-}
-
-.formulario__consulta {
-  margin-left: 85px;
-  border: 3px solid rgb(0, 0, 0);
 }
 
 .formulario__boton {
@@ -311,6 +255,7 @@ main section form {
 }
 
 @media screen and (max-width: 768px) {
+  /* HEADER */
   .header {
     flex-wrap: wrap;
     padding: 10px 20px;
@@ -326,10 +271,12 @@ main section form {
     margin: 0px;
     padding: 0px 15px;
   }
-  /* INDEX HTML */
-  main section div {
-    padding: 5px 0px;
+  /* FOOTER */
+  footer div img {
+    width: 3%;
+    height: 3%;
   }
+  /* INICIO HTML */
   /* Presentacion */
   main section div div {
     display: flex;
@@ -347,72 +294,49 @@ main section form {
     padding: 10px;
   }
   main section div div p {
-    text-align: center;
     font-size: 11px;
-    padding-bottom: 10px;
+    padding: 0px;
+  }
+  .botoninicio {
+    padding: 5px;
+    font-size: 9px;
+  }
+  /* INFLUENCER MARKETING HTML */
+  .contenedorinfluencer {
+    display: grid;
+    grid-template-areas: "1" "1";
+    grid-template-columns: 50%;
+    grid-template-rows: 150px 150px 150px 150px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+  .influencer__reversal {
+    width: 300px;
+    transition: 0.3s;
+  }
+  .influencer__cleanex {
+    width: 260px;
+    margin-left: -50px;
+    transition: 0.3s;
+  }
+  .influencer__proavenal {
+    margin-left: -20px;
+    width: 280px;
+    transition: 0.3s;
+  }
+  .influencer__inarah {
+    margin-top: 10px;
+    margin-left: -50px;
+    width: 240px;
+    transition: 0.3s;
   }
   /* CONTACTO HTML */
-  .section__contactimg {
-    width: 5%;
-  }
-  .formulario1 {
-    margin-left: -260px;
-  }
-  .formulario {
-    margin-left: -260px;
-  }
-  .formulario2 {
-    margin-left: -100px;
+  .contactimg {
+    width: 10%;
   }
   .boton {
-    margin-left: -110px;
-  }
-}
-@media screen and (max-width: 992px) {
-  header nav div ul li {
-    margin: 0px;
-    padding: 0px 15px;
-  }
-  /* INDEX HTML */
-  main section div {
-    padding: 5px 0px;
-  }
-  /* Presentacion */
-  main section div div {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  main section div h2 {
-    text-align: center;
-    font-size: 15px;
-  }
-  main section div h3 {
-    width: 100%;
-    font-size: 22px;
-    margin: 0;
-  }
-  main section div p {
-    text-align: center;
-    margin: 0;
-    font-size: 12px;
-  }
-  /* REFERENCIAS CREDENCIALES HTML */
-  #img__navbar {
-    margin-top: 10px;
-    width: 80%;
-    margin-left: 10px;
-    margin-right: 20px;
-    content: normal;
-  }
-  .credential__image {
-    width: 25%;
-  }
-  main section div {
-    display: flex;
-    justify-content: center;
-  }
-  main section div h2 {
-    padding-top: 15px;
+    margin-left: -210px;
   }
 }
 

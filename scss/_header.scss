@@ -1,11 +1,6 @@
-#header{
-    background-color: rgb(239, 233, 229);
-    display: flex;
-    align-items: center;
-    padding: 8px 10px;
-}
 header{
-    nav ul li{
+    nav{ 
+        ul li{
         font-size: 12px;
         padding: 10px;
         font-weight: bold;
@@ -14,8 +9,8 @@ header{
         &:hover{
             transform: scale(1.1);
         }
-    }
-    nav a img{
+        }
+        a img{
         margin-top: -25px;
         height: 110px;
         margin-left: 10px;
@@ -24,6 +19,7 @@ header{
         transition: 0.3s;
         &:hover{
             transform: rotate(10deg);
+        }
         }
     }
 }
