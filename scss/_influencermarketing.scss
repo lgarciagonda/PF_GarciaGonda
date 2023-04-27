@@ -1,4 +1,16 @@
-#section-influencer{
+.contenidoinfluencer{
+    background-color: rgb(199, 177, 162);   
+    display: flex;
+    padding: 0px;
+    margin-bottom: 15px;
+}
+.tituloinfluencer{ 
+    font-size: 15px;
+    font-style: italic; 
+    padding: 5px;
+    margin: 0px;
+}
+/* .contenedorinfluencer{
     display: grid;
     grid-template-areas:
         "Influencer Influencer Influencer"
@@ -15,39 +27,39 @@
     justify-content: center;
 }
 .influencer__reversal{
-    width: 350px;
+    width: 400px;
     transition: 0.3s;
-}
-.influencer__reversal:hover{
+} */
+/* .influencer__reversal:hover{
     width: 380px;
-}
-.influencer__cleanex{
+} */
+/* .influencer__cleanex{
     width: 400px;
     margin-top: -40px;
     transition: 0.3s;
-}
-.influencer__cleanex:hover{
+} */
+/* .influencer__cleanex:hover{
     width: 420px;
-}
-.influencer__inarah{
-    width: 310px;
+} */
+/* .influencer__inarah{
+    width: 300px;
     transition: 0.3s;
-}
-.influencer__inarah:hover{
+} */
+/* .influencer__inarah:hover{
     width: 360px;
-}
-.influencer__proavenal{
+} */
+/* .influencer__proavenal{
     width: 340px;
     margin-left: -20px;
     transition: 0.3s;
-}
-.influencer__proavenal:hover{
+} */
+/* .influencer__proavenal:hover{
     width: 380px;
-}
-.influencer__memeliah{
+} */
+/* .influencer__memeliah{
     width: 550px;
     transition: 0.3s;
-}
-.influencer__memeliah:hover{
+} */
+/* .influencer__memeliah:hover{
     width: 570px;
-}
+} */
