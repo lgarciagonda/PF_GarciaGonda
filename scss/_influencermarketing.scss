@@ -1,5 +1,5 @@
 .contenidoinfluencer{
-    background-color: rgb(199, 177, 162);   
+    background-color:$colortitulo;   
     display: flex;
     padding: 0px;
     margin-bottom: 15px;
@@ -22,19 +22,19 @@
     align-items: center;
 }
 .influencer__reversal{
-    width: 400px;
+    width: $imageninfluencer;
     transition: 0.3s;
 }
 .influencer__cleanex{
-    width: 350px;
+    width: $imageninfluencer;
     transition: 0.3s;
 }
 .influencer__proavenal{
-    width: 350px;
+    width: $imageninfluencer;
     transition: 0.3s;
 }
 .influencer__inarah{
-    margin-left: -110px;
+    margin-left: -80px;
     margin-top: -70px;
     width: 280px;
     transition: 0.3s;
