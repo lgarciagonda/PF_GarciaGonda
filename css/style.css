@@ -140,28 +140,33 @@ main section div img {
 .service__detail, .credential__detail {
   font-style: italic;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   list-style-type: none;
-  padding: 6px 20px;
+  padding: 6px 10px;
   margin-bottom: 15px;
   margin-top: 0px;
   background-color: white;
+  transition: 0.5s;
+}
+.service__detail:hover, .credential__detail:hover {
+  background-color: black;
+  color: white;
 }
 
 .contenidoservicio__titulo {
   margin-left: 27px;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 .contenidoinfluencer, .contenedorcontacto, .contenedorreferencias {
   background-color: rgb(199, 177, 162);
   display: flex;
+  width: 40%;
   padding: 0px;
-  margin-bottom: 15px;
 }
 
 .tituloinfluencer, .titulocontacto, .tituloreferencias {
-  font-size: 15px;
+  font-size: 18px;
   font-style: italic;
   padding: 5px;
   margin: 0px;
@@ -171,32 +176,41 @@ main section div img {
   display: grid;
   grid-template-areas: "Influencer Influencer Influencer" "1 2 3";
   grid-template-columns: 34% 33% 34%;
-  grid-template-rows: 150px 270px;
-  justify-content: center;
-  justify-items: center;
+  grid-template-rows: 200px 200px 200px;
+  justify-items: start;
   align-items: center;
 }
 
 .influencer__reversal {
-  width: 350px;
-  transition: 0.3s;
+  width: 300px;
 }
 
 .influencer__cleanex {
-  width: 350px;
-  transition: 0.3s;
+  width: 300px;
 }
 
 .influencer__proavenal {
-  width: 350px;
-  transition: 0.3s;
+  width: 300px;
 }
 
 .influencer__inarah {
-  margin-left: -80px;
-  margin-top: -70px;
-  width: 280px;
-  transition: 0.3s;
+  width: 300px;
+}
+
+.influencer__cor {
+  width: 300px;
+}
+
+.influencer__detenage {
+  width: 300px;
+}
+
+.influencer__panaderm {
+  width: 300px;
+}
+
+.influencer__sportclub {
+  width: 300px;
 }
 
 main section ul {
@@ -213,10 +227,6 @@ main section li {
 .contenedorreferenciasimg {
   display: flex;
   justify-content: center;
-}
-
-.credential__detail {
-  font-size: 14px;
 }
 
 .credential__image {

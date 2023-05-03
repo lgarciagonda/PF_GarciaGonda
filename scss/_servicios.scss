@@ -7,14 +7,19 @@
 .service__detail{
     font-style: italic;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 14px;
     list-style-type: none;
-    padding: 6px 20px;
+    padding: 6px 10px;
     margin-bottom: 15px;
     margin-top: 0px;
     background-color: white;
+    transition: 0.5s;
+    &:hover{
+        background-color: black;
+        color: white;
+    }
 }
 .contenidoservicio__titulo{
     margin-left: 27px;
-    font-size: 23px;
+    font-size: 20px;
 }

@@ -1,11 +1,11 @@
 .contenidoinfluencer{
     background-color:$colortitulo;   
     display: flex;
+    width: 40%;
     padding: 0px;
-    margin-bottom: 15px;
 }
 .tituloinfluencer{ 
-    font-size: 15px;
+    font-size: 18px;
     font-style: italic; 
     padding: 5px;
     margin: 0px;
@@ -16,26 +16,31 @@
         "Influencer Influencer Influencer"
         "1 2 3";
     grid-template-columns: 34% 33% 34%;
-    grid-template-rows: 150px 270px;
-    justify-content: center;
-    justify-items: center;
+    grid-template-rows: 200px 200px 200px;
+    justify-items: start;
     align-items: center;
 }
 .influencer__reversal{
     width: $imageninfluencer;
-    transition: 0.3s;
 }
 .influencer__cleanex{
     width: $imageninfluencer;
-    transition: 0.3s;
 }
 .influencer__proavenal{
     width: $imageninfluencer;
-    transition: 0.3s;
 }
 .influencer__inarah{
-    margin-left: -80px;
-    margin-top: -70px;
-    width: 280px;
-    transition: 0.3s;
+    width: $imageninfluencer;
+}
+.influencer__cor{
+    width: $imageninfluencer;
+}
+.influencer__detenage{
+    width: $imageninfluencer;
+}
+.influencer__panaderm{
+    width: $imageninfluencer;
+}
+.influencer__sportclub{
+    width: $imageninfluencer;
 }
