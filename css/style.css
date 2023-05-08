@@ -41,6 +41,7 @@ header nav a img:hover {
 footer {
   background-color: rgb(199, 177, 162);
   margin: 0px;
+  margin-top: 35px;
 }
 footer div {
   display: flex;
@@ -140,7 +141,7 @@ main section div img {
 .service__detail, .credential__detail {
   font-style: italic;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 15px;
   list-style-type: none;
   padding: 6px 10px;
   margin-bottom: 15px;
@@ -153,9 +154,16 @@ main section div img {
   color: white;
 }
 
+.contenedortituloservicios {
+  display: flex;
+  margin: 0px;
+}
+
 .contenidoservicio__titulo {
-  margin-left: 27px;
+  margin-left: 10px;
+  margin-top: 5px;
   font-size: 20px;
+  list-style-type: none;
 }
 
 .contenidoinfluencer, .contenedorcontacto, .contenedorreferencias {
@@ -181,35 +189,7 @@ main section div img {
   align-items: center;
 }
 
-.influencer__reversal {
-  width: 300px;
-}
-
-.influencer__cleanex {
-  width: 300px;
-}
-
-.influencer__proavenal {
-  width: 300px;
-}
-
-.influencer__inarah {
-  width: 300px;
-}
-
-.influencer__cor {
-  width: 300px;
-}
-
-.influencer__detenage {
-  width: 300px;
-}
-
-.influencer__panaderm {
-  width: 300px;
-}
-
-.influencer__sportclub {
+.influencer__marca {
   width: 300px;
 }
 
@@ -224,15 +204,34 @@ main section li {
   margin-top: 10px;
 }
 
-.contenedorreferenciasimg {
-  display: flex;
-  justify-content: center;
+#referenciasimg {
+  width: 15%;
+}
+
+.credential__detail {
+  margin-top: 28px;
 }
 
 .credential__image {
   margin-top: -35px;
   width: 12%;
   height: 13%;
+}
+
+.contenedorsubtituloreferencias {
+  display: flex;
+  margin-top: 30px;
+}
+
+.subtituloreferencias {
+  margin-bottom: 15px;
+  margin-left: 12px;
+  font-size: 20px;
+  text-align: start;
+}
+
+.flecha {
+  width: 1.5%;
 }
 
 main section form {
@@ -311,35 +310,34 @@ main section form {
     padding: 5px;
     font-size: 9px;
   }
+  /* REFERENCIAS CREDENCIALES HTML */
+  .contenedorreferencias {
+    width: 100%;
+  }
+  .flecha {
+    width: 4%;
+  }
+  #referenciasimg {
+    width: 25%;
+  }
+  .credential__detail {
+    padding: 2px;
+    margin: 0px;
+    margin-top: 9px;
+    font-size: 13px;
+  }
   /* INFLUENCER MARKETING HTML */
+  .contenidoinfluencer, .contenedorreferencias, .contenedorcontacto {
+    width: 100%;
+  }
   .contenedorinfluencer {
     display: grid;
     grid-template-areas: "1" "1";
-    grid-template-columns: 50%;
-    grid-template-rows: 150px 150px 150px 150px;
+    grid-template-columns: 70%;
+    grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px;
     justify-content: center;
     justify-items: center;
     align-items: center;
-  }
-  .influencer__reversal {
-    width: 300px;
-    transition: 0.3s;
-  }
-  .influencer__cleanex {
-    width: 260px;
-    margin-left: -50px;
-    transition: 0.3s;
-  }
-  .influencer__proavenal {
-    margin-left: -20px;
-    width: 280px;
-    transition: 0.3s;
-  }
-  .influencer__inarah {
-    margin-top: 10px;
-    margin-left: -50px;
-    width: 240px;
-    transition: 0.3s;
   }
   /* CONTACTO HTML */
   .contactimg {

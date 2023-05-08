@@ -7,7 +7,7 @@
 .service__detail{
     font-style: italic;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 15px;
     list-style-type: none;
     padding: 6px 10px;
     margin-bottom: 15px;
@@ -19,7 +19,13 @@
         color: white;
     }
 }
+.contenedortituloservicios{
+    display: flex;
+    margin: 0px;
+}
 .contenidoservicio__titulo{
-    margin-left: 27px;
+    margin-left: 10px;
+    margin-top: 5px;
     font-size: 20px;
+    list-style-type: none;
 }

@@ -18,15 +18,28 @@ main{
 .tituloreferencias{
     @extend .tituloinfluencer   
 }
-.contenedorreferenciasimg{
-    display: flex;
-    justify-content: center;
+#referenciasimg{
+    width: 15%
 }
 .credential__detail{
     @extend .service__detail;
+    margin-top: 28px;
 }
 .credential__image{
     margin-top: -35px;
     width: 12%;
     height: 13%;
+}
+.contenedorsubtituloreferencias{
+    display: flex;
+    margin-top: 30px;
+}
+.subtituloreferencias{
+    margin-bottom: 15px;
+    margin-left: 12px;
+    font-size: 20px;
+    text-align: start;
+}
+.flecha{
+    width: 1.5%;
 }

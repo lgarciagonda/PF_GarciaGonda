@@ -54,37 +54,39 @@ main section div{
     font-size: 9px;
 }
 
+/* REFERENCIAS CREDENCIALES HTML */
+
+.contenedorreferencias{
+    width: 100%;
+}
+.flecha{
+    width: 4%;
+}
+#referenciasimg{
+    width: 25%;
+}
+.credential__detail{
+    padding: 2px;
+    margin: 0px;
+    margin-top: 9px;
+    font-size: 13px;
+}
+
+
 /* INFLUENCER MARKETING HTML */
+.contenidoinfluencer{
+    width: 100%;
+}   
 .contenedorinfluencer{
     display: grid;
     grid-template-areas:
         "1"
         "1";
-    grid-template-columns: 50%;
-    grid-template-rows: 150px 150px 150px 150px;
+    grid-template-columns: 70%;
+    grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px;
     justify-content: center;
     justify-items: center;
     align-items: center;
-}
-.influencer__reversal{
-    width: 300px;
-    transition: 0.3s;
-}
-.influencer__cleanex{
-    width: 260px;
-    margin-left: -50px;
-    transition: 0.3s;
-}
-.influencer__proavenal{
-    margin-left: -20px;
-    width: 280px;
-    transition: 0.3s;
-}
-.influencer__inarah{
-    margin-top: 10px;
-    margin-left: -50px;
-    width: 240px;
-    transition: 0.3s;
 }
 
 /* CONTACTO HTML */
