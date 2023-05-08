@@ -6,6 +6,9 @@
     font-family: GlacialIndifference-Regular;
     src: url(../fonts/GlacialIndifference-Regular.ttf);
 }
+.animate__animated.animate__fadeIn{
+    --animate-duration: 5s;
+}
 
 $fondo: version2;
 
@@ -24,6 +27,8 @@ $fondo: version2;
     }
 }
 
-.animate__animated.animate__fadeIn{
-    --animate-duration: 5s;
+@mixin flex-row-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

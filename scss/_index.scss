@@ -12,8 +12,6 @@
 }
 .principal1{
     height: 700px;
-    display: flex;  
+    @include flex-row-center;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }

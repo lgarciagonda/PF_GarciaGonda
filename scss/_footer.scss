@@ -3,8 +3,7 @@ footer{
     margin: 0px;
     margin-top: 35px;
     div{ 
-        display: flex;
-        justify-content: center;
+        @include flex-row-center;
         img{
             width: 1.5%;
             height: 1.5%;
@@ -23,12 +22,14 @@ footer{
     }
 }
 .pochefooter{
+    margin: 0px;
     font-size: 12px;
     padding-top: 10px;
 }
 .contactofooter{
+    margin-top: 15px;
     font-size: 12px;
-    padding-right: 15px;
+    padding-right: 15px;   
 }
 .linkfooter{
     font-style: none;

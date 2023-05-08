@@ -10,19 +10,20 @@ main{
     @extend .tituloinfluencer
 }
 .contactimg{
-    padding-top: 15px;
+    padding-top: 25px;
+    padding-bottom: 10px;
     width: 4%;
     height: 3%;
 }
 .contactnumber{
     margin-left: 50px;
-    margin-top: -51px;
+    margin-top: -52px;
 }
 .contactemail{
     @extend .contactnumber
 }
 .boton{
-    margin-left: -5px;
+    margin-left: -5px;  
 }
 .formulario__boton{
     margin-left: 600px;
